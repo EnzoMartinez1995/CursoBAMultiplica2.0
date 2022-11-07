@@ -1,0 +1,63 @@
+body{
+     font-family: 'Roboto',sans-serif;
+     margin: 0;
+}
+
+h1{ font-size: 2.7em;}
+h2{font-size: 2em;}
+h3{font-size: 1.5em;}
+p{font-size: 1.25em;}
+ul{font-size: none;}
+
+
+ol li::marker {
+    color: red;
+    font-weight: bold;
+}
+
+ul li::marker {
+    font-size: 150%;
+    color: lightgreen;
+}
+
+.contenedor{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color:moccasin;
+}
+
+header .logo{
+    font-size: 2em;
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+}
+
+header .contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+}
+
+.imagenes-receta{
+   max-width: 100%;
+   height: auto;
+}
+
